@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Produk Pupuk - SAWITRA</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">SAWITRA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tentang.html">Tentang</a></li>
+                    <li class="nav-item"><a class="nav-link" href="harga.html">Harga TBS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="panduan.html">Panduan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="produk.html">Produk</a></li>
+                    <li class="nav-item"><a class="nav-link" href="forum.html">Forum</a></li>
+                    <li class="nav-item ms-lg-3"><a class="btn btn-warning" href="kontak.html">Hubungi Kami</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <header class="page-header text-center">
+            <div class="container">
+                <h1 data-aos="fade-down">Katalog Produk SAWITRA</h1>
+                <p class="lead" data-aos="fade-up">Solusi nutrisi superior untuk perkebunan Anda.</p>
+            </div>
+        </header>
+
+        <section class="py-5">
+            <div class="container">
+                <div class="row" data-aos="fade-up">
+                    <div class="col-12 text-center mb-5">
+                        <button class="btn filter-btn active mx-1 mb-2">Semua</button>
+                        <button class="btn filter-btn mx-1 mb-2">Pupuk NPK</button>
+                        <button class="btn filter-btn mx-1 mb-2">Pupuk Organik</button>
+                        <button class="btn filter-btn mx-1 mb-2">Herbisida</button>
+                        <button class="btn filter-btn mx-1 mb-2">Biopestisida</button>
+                        <button class="btn filter-btn mx-1 mb-2">Pupuk Anorganik</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4 product-item" data-category="Pupuk NPK" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card h-100 border-0 shadow-sm card-product">
+                            <img src="bahan\pupukNPKS.png" class="card-img-top" alt="Pupuk NPK">
+                            <div class="card-body text-center d-flex flex-column">
+                                <h5 class="card-title">SAWITRA NPK Super</h5>
+                                <p><span class="tag-category">Pupuk NPK</span></p>
+                                <p class="card-text h4 text-muted">Rp 450.000 / Karung (50kg)</p>
+                                <button class="btn btn-outline-dark mt-auto" data-bs-toggle="modal" data-bs-target="#productModal1">Lihat Detail</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 product-item" data-category="Pupuk Organik" data-aos="fade-up" data-aos-delay="200">
+                         <div class="card h-100 border-0 shadow-sm card-product">
+                            <img src="bahan\pupusorga.png" class="card-img-top" alt="Pupuk Organik">
+                            <div class="card-body text-center d-flex flex-column">
+                                <h5 class="card-title">SAWITRA Organik Plus</h5>
+                                <p><span class="tag-category">Pupuk Organik</span></p>
+                                <p class="card-text h4 text-muted">Rp 250.000 / Karung (50kg)</p>
+                                <button class="btn btn-outline-dark mt-auto" data-bs-toggle="modal" data-bs-target="#productModal2">Lihat Detail</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 product-item" data-category="Herbisida" data-aos="fade-up" data-aos-delay="300">
+                         <div class="card h-100 border-0 shadow-sm card-product">
+                            <img src="bahan\480sl.png" class="card-img-top" alt="Herbisida">
+                            <div class="card-body text-center d-flex flex-column">
+                                <h5 class="card-title">SAWITRA Glyphosate 480SL</h5>
+                                <p><span class="tag-category">Herbisida</span></p>
+                                <p class="card-text h4 text-muted">Rp 150.000 / liter</p>
+                                <button class="btn btn-outline-dark mt-auto" data-bs-toggle="modal" data-bs-target="#productModal3">Lihat Detail</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 product-item" data-category="Pupuk Anorganik" data-aos="fade-up" data-aos-delay="200">
+                        <div class="card h-100 border-0 shadow-sm card-product">
+                           <img src="bahan/tsp.png" class="card-img-top" alt="Pupuk Organik">
+                           <div class="card-body text-center d-flex flex-column">
+                               <h5 class="card-title">SAWITRA TSP</h5>
+                               <p><span class="tag-category">Pupuk Anorganik</span></p>
+                               <p class="card-text h4 text-muted">Rp 400.000 / Karung (50kg)</p>
+                               <button class="btn btn-outline-dark mt-auto" data-bs-toggle="modal" data-bs-target="#productModal4">Lihat Detail</button>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-lg-4 col-md-6 mb-4 product-item" data-category="Biopestisida" data-aos="fade-up" data-aos-delay="200">
+                         <div class="card h-100 border-0 shadow-sm card-product">
+                            <img src="bahan/biopatek.png" class="card-img-top" alt="Biopestisida">
+                            <div class="card-body text-center d-flex flex-column">
+                                <h5 class="card-title">SAWITRA Biopatek</h5>
+                                <p><span class="tag-category">Biopestisida</span></p>
+                                <p class="card-text h4 text-muted">Rp 60.000 / 500ML</p>
+                                <button class="btn btn-outline-dark mt-auto" data-bs-toggle="modal" data-bs-target="#productModal5">Lihat Detail</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cta-section text-center py-5">
+            <div class="container" data-aos="fade-up">
+                <h2 class="text-white">Siap Meningkatkan Hasil Panen Anda?</h2>
+                <p class="lead mb-4">Mari berdiskusi tentang kebutuhan perkebunan Anda. Tim kami siap memberikan solusi terbaik.</p>
+                <a href="kontak.html" class="btn btn-warning btn-lg">Hubungi Kami Sekarang</a>
+            </div>
+        </section>
+    </main>
+    <div class="modal fade" id="productModal1" tabindex="-1" aria-labelledby="productModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productModal1Label">SAWITRA NPK Super</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="bahan\pupukNPKS.png" class="img-fluid rounded" alt="Pupuk NPK">
+                        </div>
+                        <div class="col-md-7">
+                            <h4>Deskripsi Produk</h4>
+                            <p>Pupuk majemuk seimbang yang diformulasikan khusus untuk tanaman kelapa sawit pada fase TBM (Tanaman Belum Menghasilkan) dan TM (Tanaman Menghasilkan). Mengandung unsur hara makro primer yang lengkap.</p>
+                            <h4>Spesifikasi</h4>
+                            <ul>
+                                <li><strong>Nitrogen (N):</strong> 15%</li>
+                                <li><strong>Fosfor (P2O5):</strong> 15%</li>
+                                <li><strong>Kalium (K2O):</strong> 15%</li>
+                            </ul>
+                            <h4>Cara Penggunaan</h4>
+                            <p>Taburkan secara merata di piringan pohon dengan dosis 2-3 kg per pohon setiap 6 bulan sekali.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                    <a href="https://wa.me/6281234567890?text=Saya%20tertarik%20dengan%20produk%20SAWITRA%20NPK%20Super" target="_blank" class="btn btn-success"><i class="bi bi-whatsapp"></i> Beli via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="productModal2" tabindex="-1" aria-labelledby="productModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productModal2Label">SAWITRA Organik Plus</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Deskripsi SAWITRA Organik Plus...</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                    <a href="https://wa.me/6281234567890?text=Saya%20tertarik%20dengan%20produk%20SAWITRA%20Organik%20Plus" target="_blank" class="btn btn-success"><i class="bi bi-whatsapp"></i> Beli via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="productModal3" tabindex="-1" aria-labelledby="productModal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productModal3Label">SAWITRA Glyphosate 480SL</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                   <p>Deskripsi SAWITRA Glyphosate...</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                    <a href="https://wa.me/6281234567890?text=Saya%20tertarik%20dengan%20produk%20SAWITRA%20Glyphosate" target="_blank" class="btn btn-success"><i class="bi bi-whatsapp"></i> Beli via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="productModal4" tabindex="-1" aria-labelledby="productModal4Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productModal4Label">SAWITRA TSP</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Deskripsi SAWITRA TSP...</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                    <a href="https://wa.me/6281234567890?text=Saya%20tertarik%20dengan%20produk%20SAWITRA%20Organik%20Plus" target="_blank" class="btn btn-success"><i class="bi bi-whatsapp"></i> Beli via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="productModal5" tabindex="-1" aria-labelledby="productModal5Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productModal5Label">SAWITRA Biopatek</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Deskripsi SAWITRA Biopatek...</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                    <a href="https://wa.me/6281234567890?text=Saya%20tertarik%20dengan%20produk%20SAWITRA%20Organik%20Plus" target="_blank" class="btn btn-success"><i class="bi bi-whatsapp"></i> Beli via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container text-center text-md-start">
+            <div class="row">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <h5 class="text-uppercase fw-bold mb-4" style="font-family: 'Poppins', sans-serif; color: var(--accent-color);">SAWITRA</h5>
+                    <p>Menyediakan solusi inovatif dan informasi terpercaya untuk mendukung kemajuan dan kesejahteraan petani sawit di seluruh Indonesia.</p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Tautan Cepat</h6>
+                    <p><a href="index.html" class="text-reset text-decoration-none">Beranda</a></p>
+                    <p><a href="tentang.html" class="text-reset text-decoration-none">Tentang</a></p>
+                    <p><a href="harga.html" class="text-reset text-decoration-none">Harga TBS</a></p>
+                    <p><a href="produk.html" class="text-reset text-decoration-none">Produk</a></p>
+                    <p><a href="forum.html" class="text-reset text-decoration-none">Forum</a></p>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Kontak & Media Sosial</h6>
+                    <p><i class="bi bi-geo-alt-fill me-3"></i> Lampung, Indonesia</p>
+                    <p><i class="bi bi-envelope-fill me-3"></i> sawitra@gmail.com</p>
+                    <p><i class="bi bi-telephone-fill me-3"></i> +62 123 456 789</p>
+                    <div class="mt-3">
+                        <a href="#" class="text-white me-3 fs-4"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/sawitraaa?igsh=MWVsa3B3Z3Y1MWthMg==" class="text-white me-3 fs-4" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white fs-4"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center pt-4" style="border-top: 1px solid rgba(255,255,255,0.1);">
+                © 2025 SAWITRA. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
